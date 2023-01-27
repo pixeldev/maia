@@ -1,0 +1,11 @@
+[versions]
+storage = "1.0.0"
+
+[libraries]
+spigot = { group = "io.papermc.paper", name = "paper-api", version = "1.19.2-R0.1-SNAPSHOT" }
+
+storage-redis = { group = "ml.stargirls", name = "storage-redis-dist", version.ref = "storage" }
+storage-gson = { group = "ml.stargirls", name = "storage-gson-dist", version.ref = "storage" }
+storage-caffeine = { group = "ml.stargirls", name = "storage-caffeine-dist", version.ref = "storage" }
+storage-mongo = { group = "ml.stargirls", name = "storage-mongo-legacy-dist", version.ref = "storage" }
+storage-api = { group = "ml.stargirls", name = "storage-api", version.ref = "storage" }
